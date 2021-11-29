@@ -7,11 +7,12 @@ public class PlayerController : MonoBehaviour
     float speed = 2.5f;
     Vector2 movePos;
     float angle;
-    public Camera mainCam;
+    [SerializeField] Camera mainCam;
 
     private void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
+        mainCam = GameObject.FindObjectOfType<Camera>();
     }
     private void Update()
     {
