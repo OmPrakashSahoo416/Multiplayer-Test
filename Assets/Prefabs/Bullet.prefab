@@ -136,6 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   count: 0
+  bulletHitEffect: {fileID: 270197437914561400}
 --- !u!1001 &559115491773792717
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -196,5 +197,10 @@ PrefabInstance:
 --- !u!4 &270197437914561401 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 323572737295940276, guid: 5e017975cbba9de4d9c031eda371e819, type: 3}
+  m_PrefabInstance: {fileID: 559115491773792717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &270197437914561400 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 323572737295940277, guid: 5e017975cbba9de4d9c031eda371e819, type: 3}
   m_PrefabInstance: {fileID: 559115491773792717}
   m_PrefabAsset: {fileID: 0}
